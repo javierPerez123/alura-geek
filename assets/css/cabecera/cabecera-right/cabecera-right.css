@@ -1,0 +1,6 @@
+.cabecera__right {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+}

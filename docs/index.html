@@ -6,8 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/normalize.css">
+    <link rel="stylesheet" href="../assets/css/cabecera/cabecera.css">
+    <link rel="stylesheet" href="../assets/css/cabecera/cabecera-container.css">
+    <link rel="stylesheet" href="../assets/css/cabecera/cabecera-left/cabecera-logo.css">
+    <link rel="stylesheet" href="../assets/css/cabecera/cabecera-left/cabecera-left.css">
+    <link rel="stylesheet" href="../assets/css/cabecera/cabecera-left/cabecera-menu.css">
+    <link rel="stylesheet" href="../assets/css/cabecera/cabecera-right/cabecera-right.css">
+    <link rel="stylesheet" href="../assets/css/cabecera/cabecera-right/cabecera-login.css">
+    <link rel="stylesheet" href="../assets/css/cabecera/cabecera-right/cabecera-shopping.css">
+    <link rel="stylesheet" href="../assets/css/cabecera/cabecera-search/cabecera-lupa.css">
+    <link rel="stylesheet" href="../assets/css/cabecera/cabecera-search/cabecera-input.css">
+    <link rel="stylesheet" href="../assets/css/cabecera/cabecera-search/cabecera-search.css">
     <script src="https://kit.fontawesome.com/089c398562.js" crossorigin="anonymous"></script>
 </head>
 
@@ -15,13 +26,20 @@
 
     <head class="cabecera">
         <header class="cabecera__container">
-            <img src="../assets/imagenes/cabecera/Logo.png" alt="logo" class="cabecera__logo">
-            <div class="cabecera__search">
-                <a class="cabecera__icon-searh" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
-                <a class="cabecera__login" href=""><i class="fa-solid fa-user"></i>Login</a>
+            <div class="cabecera__left">
+                <a href="" class="cabecera__menu"><i class="fa-sharp fa-solid fa-bars"></i></a>
+                <img src="../assets/imagenes/cabecera/Logo.png" alt="logo" class="cabecera__logo">
             </div>
-
+            <div class="cabecera__right">
+                <a class="cabecera__login" href=""><i class="fa-solid fa-user"></i>Iniciar sesión</a>
+                <a class="cabecera__shopping" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="cabecera__search">
+                <input type="text" placeholder="Buscar en AluraGeek">
+                <a class="cabecera__icon-searh" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
         </header>
+
     </head>
 
 </body>
