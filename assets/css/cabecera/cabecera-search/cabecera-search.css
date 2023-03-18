@@ -1,5 +1,15 @@
 .cabecera__search {
     width: 100%;
-    height: 2.5rem;
+    display: flex;
     align-self: flex-start;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.cabecera__search-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    background-color: white;
+    border-radius: 2rem;
 }

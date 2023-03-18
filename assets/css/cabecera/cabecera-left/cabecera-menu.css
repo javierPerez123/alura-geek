@@ -1,4 +1,5 @@
 .cabecera__menu {
-    margin: auto 0.5rem;
-    color: black;
+    margin: auto 0.5rem auto 1rem;
+    font-size: 1.2rem;
+    color: white;
 }

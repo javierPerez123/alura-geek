@@ -1,3 +1,14 @@
 .cabecera__left {
     display: flex;
+    align-self: flex-start;
+    width: 52%;
+    height: 2.5rem;
+    border-top-right-radius: 1.3rem;
+    border-bottom-right-radius: 1.3rem;
+    background: #c31432;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }

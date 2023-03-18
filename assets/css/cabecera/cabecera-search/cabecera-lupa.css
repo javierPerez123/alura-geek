@@ -1,0 +1,9 @@
+.cabecera__lupa {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    color: white;
+    background: grey;
+    border: 0;
+}
