@@ -1,0 +1,18 @@
+.banner__button {
+    width: 7.375rem;
+    height: 2.5rem;
+    background: #c31432;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #c31432;
+
+    border-radius: 0.3rem;
+
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1rem;
+}

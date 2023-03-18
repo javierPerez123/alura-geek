@@ -1,0 +1,8 @@
+.banner {
+    background: url('../../imagenes/banner/banner.jpg') no-repeat center / cover;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 1rem;
+}

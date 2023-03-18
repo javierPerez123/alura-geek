@@ -1,0 +1,14 @@
+.ubicacion__texto {
+    font-size: 1.1rem;
+    font-weight: normal;
+    margin-left: 0.5rem;
+    color: rgb(88, 87, 87);
+}
+
+.fa-location-dot {
+    font-size: 1.5rem;
+    background: -webkit-linear-gradient(#c31432, #240b36);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
