@@ -5,8 +5,9 @@
     outline: 0px;
     resize: none;
     cursor: pointer;
-    border-radius: 0.5rem;
+    border-radius: 0.2rem;
     padding: 0.6rem 0 0 1rem;
+    border-bottom: 2px solid gray;
 
     font-family: 'Raleway';
     font-style: normal;

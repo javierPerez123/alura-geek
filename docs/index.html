@@ -41,12 +41,17 @@
     <link rel="stylesheet" href="../assets/css/informacion/informacion-lista.css">
     <link rel="stylesheet" href="../assets/css/informacion/informacion-item.css">
     <link rel="stylesheet" href="../assets/css/informacion/informacion-link.css">
-    <link rel="stylesheet" href="../assets/css/formulario/formulario.css">
-    <link rel="stylesheet" href="../assets/css/formulario/formulario-box.css">
-    <link rel="stylesheet" href="../assets/css/formulario/formulario-titulo.css">
-    <link rel="stylesheet" href="../assets/css/formulario/formulario-label.css">
-    <link rel="stylesheet" href="../assets/css/formulario/formulario-entrada.css">
-    <link rel="stylesheet" href="../assets/css/formulario/formulario-boton.css">
+    <link rel="stylesheet" href="../assets/css/contacto/contacto.css">
+    <link rel="stylesheet" href="../assets/css/contacto/contacto-title.css">
+    <link rel="stylesheet" href="../assets/css/contacto/formulario/formulario.css">
+    <link rel="stylesheet" href="../assets/css/contacto/formulario/formulario-box.css">
+    <link rel="stylesheet" href="../assets/css/contacto/formulario/formulario-titulo.css">
+    <link rel="stylesheet" href="../assets/css/contacto/formulario/formulario-label.css">
+    <link rel="stylesheet" href="../assets/css/contacto/formulario/formulario-entrada.css">
+    <link rel="stylesheet" href="../assets/css/contacto/formulario/formulario-boton.css">
+    <link rel="stylesheet" href="../assets/css/rodapie/rodapie.css">
+    <link rel="stylesheet" href="../assets/css/rodapie/rodapie-title.css">
+    <link rel="stylesheet" href="../assets/css/rodapie/rodapie-descripcion.css">
     <script src="https://kit.fontawesome.com/089c398562.js" crossorigin="anonymous"></script>
 </head>
 
@@ -220,19 +225,19 @@
             <ul class="informacion__lista-link">
                 <li class="informacion__item">
                     <a href="" class="informacion__link">Quienes somos</a>
-                    <i class="fa-solid fa-plus"></i>
+                    <a href="" class="informacion__icon"><i class="fa-solid fa-plus"></i></a>
                 </li>
                 <li class="informacion__item">
                     <a href="" class="informacion__link">Quiero ser franquiciado</a>
-                    <i class="fa-solid fa-plus"></i>
+                    <a href="" class="informacion__icon"><i class="fa-solid fa-plus"></i></a>
                 </li>
                 <li class="informacion__item">
                     <a href="" class="informacion__link">Anúncie aquí</a>
-                    <i class="fa-solid fa-plus"></i>
+                    <a href="" class="informacion__icon"><i class="fa-solid fa-plus"></i></a>
                 </li>
                 <li class="informacion__item">
                     <a href="" class="informacion__link">Nuestras tiendas</a>
-                    <i class="fa-solid fa-plus"></i>
+                    <a href="" class="informacion__icon"><i class="fa-solid fa-plus"></i></a>
                 </li>
             </ul>
             <ul class="informacion__lista-redes">
@@ -251,25 +256,27 @@
         </div>
     </section>
     <section class="contacto">
-        <h2 class="contacto__title"></h2>
-        <form>
-            <fieldset class="formulario">
-                <div class="formulario__box">
-                    <label for="name" class="formulario__label">
-                        <span class="formulario__titulo">Nombres</span>
-                        <input type="text" id="name" class="formulario__entrada" data-form-name required>
-                    </label>
-                </div>
-                <div class="formulario__box">
-                    <label for="mensaje" class="formulario__label formulario__label-textarea">
-                        <span class="formulario__titulo">Mensaje</span>
-                        <input rows="5" id="mensaje" class="formulario__entrada formulario__entrada-textarea"
-                            data-form-mensaje required></input>
-                    </label>
-                </div>
-            </fieldset>
-            <input type="submit" class="formulario__boton" value="Enviar mensaje">
-        </form>
+        <div class="contacto__container">
+            <h2 class="contacto__title">Hable con nosotros</h2>
+            <form>
+                <fieldset class="formulario">
+                    <div class="formulario__box">
+                        <label for="name" class="formulario__label">
+                            <span class="formulario__titulo">Nombres</span>
+                            <input type="text" id="name" class="formulario__entrada" data-form-name required>
+                        </label>
+                    </div>
+                    <div class="formulario__box-mensaje">
+                        <label for="mensaje" class="formulario__label formulario__label-textarea">
+                            <span class="formulario__titulo">Mensaje</span>
+                            <input rows="5" id="mensaje" class="formulario__entrada formulario__entrada-textarea"
+                                data-form-mensaje required></input>
+                        </label>
+                    </div>
+                </fieldset>
+                <input type="submit" class="formulario__boton" value="Enviar mensaje">
+            </form>
+        </div>
     </section>
     <footer class="rodapie">
         <h3 class="rodapie__title">© TODOS LOS DERECHOS RESERVADOS</h3>
