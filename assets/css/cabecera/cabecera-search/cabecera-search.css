@@ -13,3 +13,16 @@
     background-color: white;
     border-radius: 2rem;
 }
+
+@media screen and (min-width: 1080px) {
+    .cabecera__search {
+        width: 50%;
+        align-self: center;
+        height: 60%;
+        margin-bottom: 0;
+    }
+
+    .cabecera__search-container {
+        width: 100%;
+    }
+}

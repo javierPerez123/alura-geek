@@ -3,3 +3,10 @@
     color: white;
     font-size: 1.15rem;
 }
+
+@media screen and (min-width: 1080px) {
+    .cabecera__logo {
+        margin: auto;
+        font-size: 2.5rem;
+    }
+}

@@ -1,5 +1,28 @@
-.cabecera__menu {
+.cabecera__menu-icon {
     margin: auto 0.5rem auto 1rem;
     font-size: 1.2rem;
     color: white;
+}
+
+.cabecera__menu-destopk {
+    display: none;
+}
+
+@media screen and (min-width: 1080px) {
+    .cabecera__menu {
+        display: none;
+    }
+
+    .cabecera__menu-destopk {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cabecera__menu-icon {
+        margin: 0;
+        text-decoration: none;
+        font-size: 1.6rem;
+        color: white;
+    }
 }

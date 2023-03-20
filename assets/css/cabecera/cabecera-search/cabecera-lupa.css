@@ -7,3 +7,15 @@
     background: grey;
     border: 0;
 }
+
+@media screen and (min-width: 1080px) {
+    .cabecera__lupa {
+        width: 2.625rem;
+        height: 100%;
+        font-size: 1.3rem;
+        border-radius: 50%;
+        color: white;
+        background: grey;
+        border: 0;
+    }
+}

@@ -2,3 +2,12 @@
     color: grey;
     font-size: 0.8rem;
 }
+
+@media screen and (min-width: 1080px) {
+    .cabecera__login {
+        font-size: 1.1875rem;
+        font-weight: 700;
+        color: white;
+        text-decoration: none;
+    }
+}
