@@ -1,0 +1,5 @@
+.card__description {
+    padding: 0.6rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,7 @@
+.category__card {
+    width: calc(60% - 2.5rem);
+    display: flex;
+    flex-direction: column;
+    background: white;
+    margin-bottom: 1rem;
+}
