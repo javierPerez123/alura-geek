@@ -1,0 +1,20 @@
+.informacion__lista-link {
+    list-style: none;
+    margin: 0;
+}
+
+.informacion__lista-redes {
+    list-style: none;
+    display: flex;
+    margin-bottom: 0;
+    height: 2rem;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.informacion__lista-politicas {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}

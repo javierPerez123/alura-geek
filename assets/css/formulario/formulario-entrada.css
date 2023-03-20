@@ -1,0 +1,42 @@
+.formulario__entrada {
+    width: calc(100%-1rem);
+    height: 100%;
+    border: 0;
+    outline: 0px;
+    resize: none;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    padding: 0.6rem 0 0 1rem;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #464646;
+}
+
+.formulario__entrada.bottom {
+    border-bottom: 0.25rem solid blueviolet;
+}
+
+.error1 {
+    border: 0.2rem solid red;
+}
+
+.pError0 {
+    width: 80%;
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+    margin-left: 0.8rem;
+    color: red;
+}
+
+.formulario__entrada-textarea::placeholder {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #A2A2A2;
+}

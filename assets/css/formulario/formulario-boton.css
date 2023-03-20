@@ -1,0 +1,31 @@
+.formulario__boton {
+
+    /* Estilos del texto*/
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1rem;
+
+    /* Estilos del boton*/
+    width: 8.3125rem;
+    height: 2.5rem;
+    padding: 0.7rem 1rem 1rem 1rem;
+    margin: 0;
+    color: white;
+    border: 0.08rem solid white;
+    border-radius: 0.5rem;
+    background: none;
+    transition: 1s ease-out;
+}
+
+.formulario__boton:hover {
+    transition: 0.5s ease-in-out;
+    background: #512da8;
+    border: transparent;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0px #673ab7,
+        0 0 0px #673ab7,
+        0 0 50px #673ab7,
+        0 0 50px #673ab7;
+}

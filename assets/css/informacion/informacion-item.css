@@ -1,0 +1,14 @@
+.informacion__lista-link .informacion__item {
+    width: 100%;
+    height: 3.75rem;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgrey;
+    color: white;
+}
+
+.informacion__lista-politicas .informacion__item {
+    margin-top: 0.75rem;
+}

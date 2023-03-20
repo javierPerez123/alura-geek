@@ -1,0 +1,14 @@
+.informacion__link {
+    color: white;
+    text-decoration: none;
+}
+
+.informacion__lista-redes .informacion__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: gray;
+}
