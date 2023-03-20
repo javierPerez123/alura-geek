@@ -3,3 +3,11 @@
     flex-direction: column;
     border-bottom: 1px solid lightgrey;
 }
+
+@media screen and (min-width: 768px) {
+    .informacion__container {
+        margin-top: 1rem;
+        width: 30%;
+        border-bottom: 0;
+    }
+}

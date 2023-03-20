@@ -6,3 +6,9 @@
     margin: 0.5rem 1rem 0 1rem;
     background: white;
 }
+
+@media screen and (min-width: 768px) {
+    .category__head {
+        margin: 2rem 2rem 0 2rem;
+    }
+}

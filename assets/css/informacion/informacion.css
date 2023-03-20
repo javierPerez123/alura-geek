@@ -2,3 +2,13 @@
     background: #240b36;
     padding: 1rem 1.5rem;
 }
+
+@media screen and (min-width: 768px) {
+    .informacion {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        border-bottom: 1px solid lightgray;
+        padding: 1rem 1.5rem 0 1.5rem;
+    }
+}
