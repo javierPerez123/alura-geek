@@ -10,3 +10,9 @@
         border-bottom: 0;
     }
 }
+
+@media screen and (min-width: 1080px) {
+    .contacto__container {
+        width: 50%;
+    }
+}

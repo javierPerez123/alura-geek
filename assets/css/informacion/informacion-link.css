@@ -3,6 +3,10 @@
     text-decoration: none;
 }
 
+.informacion__link:hover {
+    color: lightgray;
+}
+
 .informacion__lista-redes .informacion__link {
     display: flex;
     align-items: center;
