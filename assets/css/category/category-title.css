@@ -5,3 +5,10 @@
     line-height: 1.625rem;
     color: #464646;
 }
+
+@media screen and (min-width: 1080px) {
+    .category__title {
+        font-size: 2rem;
+        line-height: 2.1rem;
+    }
+}

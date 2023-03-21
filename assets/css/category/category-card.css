@@ -6,8 +6,22 @@
     margin-bottom: 1rem;
 }
 
+.category__card-desktop {
+    display: none;
+}
+
 @media screen and (min-width: 768px) {
     .category__card {
         width: calc(29% - 2.5rem);
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .category__card {
+        width: calc(20% - 3.2rem);
+    }
+
+    .category__card-desktop {
+        display: block;
     }
 }
