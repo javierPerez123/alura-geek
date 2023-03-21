@@ -3,5 +3,10 @@
     justify-content: center;
     font-weight: bold;
     align-items: center;
-    order: 4;
+}
+
+@media screen and (min-width: 1080px) {
+    .cabecera__right {
+        order: 4;
+    }
 }

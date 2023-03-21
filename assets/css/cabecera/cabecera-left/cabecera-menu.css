@@ -1,5 +1,8 @@
-.cabecera__menu-icon {
+.cabecera__menu {
     margin: auto 0.5rem auto 1rem;
+}
+
+.cabecera__menu-icon {
     font-size: 1.2rem;
     color: white;
 }

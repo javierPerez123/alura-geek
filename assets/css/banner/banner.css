@@ -1,6 +1,6 @@
 .banner {
     background: url('../../imagenes/banner/banner.jpg') no-repeat center / cover;
-    height: 30vh;
+    height: 10vh;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -9,6 +9,18 @@
 
 @media screen and (min-width: 768px) {
     .banner {
-        height: 45vh;
+        height: 20vh;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .banner {
+        height: 20vh;
+        padding: 2rem;
+    }
+
+    .banner__container {
+        width: 67.5rem;
+        align-self: center;
     }
 }

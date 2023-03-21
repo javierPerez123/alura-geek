@@ -16,3 +16,11 @@
     font-size: 0.875rem;
     line-height: 1rem;
 }
+
+@media screen and (min-width: 1080px) {
+    .banner__button {
+        width: 8.0625rem;
+        height: 3.25rem;
+
+    }
+}
