@@ -53,7 +53,7 @@
     <link rel="stylesheet" href="../assets/css/rodapie/rodapie-title.css">
     <link rel="stylesheet" href="../assets/css/rodapie/rodapie-descripcion.css">
     <script src="https://kit.fontawesome.com/089c398562.js" crossorigin="anonymous"></script>
-</head>
+    <script defer src="../scripts/index.js" type="module"></script>
 
 <body>
 
@@ -280,69 +280,68 @@
             </div>
         </section>
     </main>
-    <section class="informacion">
-
-    </section>
-
     <footer class="rodapie">
-        <div class="rodapie__container-logo">
-            <h2 class="rodapie__logo"><i class="fa-solid fa-gamepad"></i>MyGaming</h2>
-        </div>
-        <div class="informacion__container">
-            <h2 class="informacion__logo"><i class="fa-solid fa-gamepad"></i>MyGaming</h2>
-            <ul class="informacion__lista-link">
-                <li class="informacion__item">
-                    <a href="" class="informacion__link">Quienes somos</a>
-                    <a href="" class="informacion__icon"><i class="fa-solid fa-plus"></i></a>
-                </li>
-                <li class="informacion__item">
-                    <a href="" class="informacion__link">Quiero ser franquiciado</a>
-                    <a href="" class="informacion__icon"><i class="fa-solid fa-plus"></i></a>
-                </li>
-                <li class="informacion__item">
-                    <a href="" class="informacion__link">Anúncie aquí</a>
-                    <a href="" class="informacion__icon"><i class="fa-solid fa-plus"></i></a>
-                </li>
-                <li class="informacion__item">
-                    <a href="" class="informacion__link">Nuestras tiendas</a>
-                    <a href="" class="informacion__icon"><i class="fa-solid fa-plus"></i></a>
-                </li>
-            </ul>
-            <ul class="informacion__lista-redes">
-                <li class="informacion__item"><a href="" class="informacion__link"><i
-                            class="fa-brands fa-facebook-f"></i></a>
-                </li>
-                <li class="informacion__item"><a href="" class="informacion__link"><i
-                            class="fa-brands fa-instagram"></i></a>
-                </li>
-            </ul>
-            <ul class="informacion__lista-politicas">
-                <li class="informacion__item"><a href="" class="informacion__link">Términos y condiciones</a></li>
-                <li class="informacion__item"><a href="" class="informacion__link">Política de cookies</a></li>
-                <li class="informacion__item"><a href="" class="informacion__link">Política de privacidad</a></li>
-            </ul>
-        </div>
+        <div class="rodapie__container">
+            <div class="rodapie__container-logo">
+                <h2 class="rodapie__logo"><i class="fa-solid fa-gamepad"></i>MyGaming</h2>
+            </div>
+            <div class="informacion__container">
+                <h2 class="informacion__logo"><i class="fa-solid fa-gamepad"></i>MyGaming</h2>
+                <ul class="informacion__lista-link">
+                    <li class="informacion__item">
+                        <a href="" class="informacion__link">Quienes somos</a>
+                        <a href="" class="informacion__icon"><i class="fa-solid fa-plus"></i></a>
+                    </li>
+                    <li class="informacion__item">
+                        <a href="" class="informacion__link">Quiero ser franquiciado</a>
+                        <a href="" class="informacion__icon"><i class="fa-solid fa-plus"></i></a>
+                    </li>
+                    <li class="informacion__item">
+                        <a href="" class="informacion__link">Anúncie aquí</a>
+                        <a href="" class="informacion__icon"><i class="fa-solid fa-plus"></i></a>
+                    </li>
+                    <li class="informacion__item">
+                        <a href="" class="informacion__link">Nuestras tiendas</a>
+                        <a href="" class="informacion__icon"><i class="fa-solid fa-plus"></i></a>
+                    </li>
+                </ul>
+                <ul class="informacion__lista-redes">
+                    <li class="informacion__item"><a href="" class="informacion__link"><i
+                                class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li class="informacion__item"><a href="" class="informacion__link"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </li>
+                </ul>
+                <ul class="informacion__lista-politicas">
+                    <li class="informacion__item"><a href="" class="informacion__link">Términos y condiciones</a></li>
+                    <li class="informacion__item"><a href="" class="informacion__link">Política de cookies</a></li>
+                    <li class="informacion__item"><a href="" class="informacion__link">Política de privacidad</a></li>
+                </ul>
+            </div>
 
-        <div class="contacto__container">
-            <h2 class="contacto__title">Hable con nosotros</h2>
-            <form>
-                <fieldset class="formulario">
-                    <div class="formulario__box">
-                        <label for="name" class="formulario__label">
-                            <span class="formulario__titulo">Nombres</span>
-                            <input type="text" id="name" class="formulario__entrada" data-form-name required>
-                        </label>
-                    </div>
-                    <div class="formulario__box-mensaje">
-                        <label for="mensaje" class="formulario__label formulario__label-textarea">
-                            <span class="formulario__titulo">Mensaje</span>
-                            <input rows="5" id="mensaje" class="formulario__entrada formulario__entrada-textarea"
-                                data-form-mensaje required></input>
-                        </label>
-                    </div>
-                </fieldset>
-                <input type="submit" class="formulario__boton" value="Enviar mensaje">
-            </form>
+            <div class="contacto__container">
+                <h2 class="contacto__title">Hable con nosotros</h2>
+                <form>
+                    <fieldset class="formulario">
+                        <div class="formulario__box">
+                            <div for="name" class="formulario__label">
+                                <label class="formulario__titulo">Nombres</label>
+                                <input type="text" id="name" class="formulario__entrada" data-form-name required>
+                            </div>
+                        </div>
+                        <div class="formulario__box-mensaje">
+                            <label for="mensaje" class="formulario__label formulario__label-textarea">
+                                <span class="formulario__titulo">Mensaje</span>
+                                <input rows="5" id="mensaje" class="formulario__entrada formulario__entrada-textarea"
+                                    data-form-mensaje required></input>
+                            </label>
+                        </div>
+                    </fieldset>
+                    <input type="submit" class="formulario__boton" value="Enviar mensaje">
+                </form>
+            </div>
+
         </div>
         <div class="rodapie__lista">
             <ul class="rodapie__lista-politicas">
